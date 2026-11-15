@@ -14,6 +14,10 @@
 * 🧠 **Platform:** Custom `150 × 110 mm` PCB built around an `ESP32-S3-WROOM-1` for native ESPHome integration.
 * ⚙️ **Target Load:** Single-phase `230V AC` sliding/swing gates and garage roller shutters.
 * 🛡️ **Design Goal:** Industrial-grade mains isolation and surge protection in a single self-contained board—zero external relay modules or floating power supplies.
+* ⚙️ **Motor:** `1×` single-phase `230V AC` motor (open/close).
+* 📥 **Inputs:** `6×` opto-isolated `24V` (`2` photocells, `2` limit switches, `2` push-buttons).
+* 📤 **Outputs:** `1×` motor (power + direction relays), `2×` `230V AC` SSR (flashing beacon, auxiliary).
+
 ---
 
 ## 🤔 Why Yet Another Gate Controller?
@@ -29,6 +33,9 @@
 ---
 
 ## 📌 Project Status
+
+> ### 🙋 Looking for expenses split!
+> Help me get the first `5` boards made: **3 spots available at ~`55–60 €` each.**
 
 * 🧪 **Stage:** Design complete, **not ordered yet**. The first prototype batch (PCB + SMT assembly from JLCPCB, `5` boards) is ready in the cart and will be ordered as soon as the 3 spare boards find a home.
 * 🤝 **Looking for 3 early adopters:** I keep `2` boards for myself and I'm looking for `3` people willing to refund the cost of the other three boards (about `55–60 €` per board). Spending ~`300 €` for just two boards makes no sense, so splitting the batch is what makes this prototype run viable.
