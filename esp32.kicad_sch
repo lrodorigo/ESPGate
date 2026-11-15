@@ -2201,6 +2201,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Reset Button"
+		(exclude_from_sim no)
+		(at 55.626 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58068f4b-a023-4d25-ae9e-63e2e618ebef")
+	)
+	(text "Boot Mode Button"
+		(exclude_from_sim no)
+		(at 214.122 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "735331e3-8676-4445-8839-4e0258690b76")
+	)
+	(text "Status LED"
+		(exclude_from_sim no)
+		(at 128.27 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "966f34fb-a17e-49c0-8a8d-6088ddbd2f58")
+	)
+	(text "Config Button"
+		(exclude_from_sim no)
+		(at 163.83 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1725bbc-642f-4ef1-8a3e-375c6de73178")
+	)
 	(junction
 		(at 81.28 85.09)
 		(diameter 0)

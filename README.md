@@ -88,23 +88,26 @@
 * 🔘 **J7 (`BUTTONS`):** Opto-isolated wall push-button inputs (`C`, `1`, `2` → `B1`, `B2`).
 
 ---
-
 ## 📍 ESP32-S3 Pinout Map
 
 * 📤 **Outputs:**
-  * `GPIO4` (`MOTOR_PWR`, Active `HIGH`): Main motor power relay.
-  * `GPIO5` (`MOTOR_DIR`, Active `HIGH`): Direction relay (`LOW` = Open, `HIGH` = Close).
-  * `GPIO6` (`OUT_LAMP`, Active `HIGH`): Flashing beacon SSR (`LAMP`).
-  * `GPIO7` (`OUT_AUX`, Active `HIGH`): Auxiliary SSR (`AUX`).
-  * `GPIO48` (`LED_STATUS`, Active `HIGH`): Onboard status LED.
+  * `GPIO8` (`ESP_REL_MOT_PWR`, Active `HIGH`): Main motor power relay (`MOTOR PWR`).
+  * `GPIO18` (`ESP_REL_DIR`, Active `HIGH`): Direction relay (`MOTOR DIR`: `LOW` = Open, `HIGH` = Close).
+  * `GPIO16` (`ESP_LAMP`, Active `HIGH`): Flashing beacon SSR (`LAMP`).
+  * `GPIO15` (`ESP_AUX`, Active `HIGH`): Auxiliary SSR (`AUX`).
+  * `GPIO5` (`ESP_LED_GR`, Active `HIGH`): Onboard green status LED (`STATUS`).
 * 📥 **Inputs:**
-  * `GPIO15` (`IN_PHOTOC_1`, Active `LOW`): Photocell 1 (`P1`).
-  * `GPIO16` (`IN_PHOTOC_2`, Active `LOW`): Photocell 2 (`P2`).
-  * `GPIO17` (`IN_LIMIT_OPEN`, Active `LOW`): Open limit switch (`L1`).
-  * `GPIO18` (`IN_LIMIT_CLOSE`, Active `LOW`): Close limit switch (`L2`).
-  * `GPIO8` (`IN_BTN_1`, Active `LOW`): Push-button 1 (`B1`).
-  * `GPIO9` (`IN_BTN_2`, Active `LOW`): Push-button 2 (`B2`).
-  * `GPIO0` (`BTN_CONFIG`, Active `LOW`): Onboard `CONFIG` / Boot button.
+  * `GPIO11` (`ESP_IN_FOTOC_1`, Active `LOW`): Photocell 1 (`P1`).
+  * `GPIO12` (`ESP_IN_FOTOC_2`, Active `LOW`): Photocell 2 (`P2`).
+  * `GPIO14` (`ESP_IN_LIMIT_1`, Active `LOW`): Open limit switch (`L1`).
+  * `GPIO21` (`ESP_IN_LIMIT_2`, Active `LOW`): Close limit switch (`L2`).
+  * `GPIO38` (`ESP_IN_BTN_1`, Active `LOW`): Push-button 1 (`B1`).
+  * `GPIO39` (`ESP_IN_BTN_2`, Active `LOW`): Push-button 2 (`B2`).
+  * `GPIO13` (`SW3`, Active `LOW`): Onboard `CONFIG` button.
+  * `GPIO4` (`ESP_IN_NTC`, ADC): Optional external NTC thermistor input (`NTC1`).
+* 🔌 **Debug UART (`J4`):**
+  * `GPIO0` (`SW1`, Active `LOW`): Onboard `FLASH` / Boot mode button.
+  * `GPIO43` (`TXD0`) / `GPIO44` (`RXD0`): 3.3V UART header (`330 Ω` series protection resistors).
 
 ---
 
