@@ -120,3 +120,12 @@
 
 * **License:** CERN Open Hardware Licence v2 - Permissive (`CERN-OHL-P`) / `MIT`.
 * **Liability:** Provided as-is for educational and DIY purposes; the author assumes no liability for personal injury, property damage, or regulatory compliance.
+
+---
+
+## 📐 Mechanical
+
+* 🔩 **Mounting:** Secured by `4×` **M4** screws, one in each corner.
+* 📏 **Board Size:** `150 × 111 mm`, mounting holes on a `138 × 100 mm` grid.
+
+![ESPGate mechanical drawing](docs/mechanical.png)
