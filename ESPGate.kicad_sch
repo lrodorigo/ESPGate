@@ -984,7 +984,7 @@
 		)
 		(uuid "0fa09233-ee79-4805-80c8-eca4a923d3bd")
 	)
-	(text "230 AUX"
+	(text "AUX_NO"
 		(exclude_from_sim no)
 		(at 241.3 71.628 0)
 		(effects
@@ -1194,21 +1194,15 @@
 		)
 		(uuid "f6509976-5a7c-4283-8205-d455096f774e")
 	)
-	(text "N"
+	(text "AUX_COM"
 		(exclude_from_sim no)
-		(at 244.602 69.088 0)
+		(at 241.554 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "fd53a9e6-686d-4b2d-abd6-5387cbf7304c")
-	)
-	(junction
-		(at 255.27 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "134c69b2-9ad7-4880-a83a-3e319c076d01")
 	)
 	(junction
 		(at 245.11 120.65)
@@ -1247,7 +1241,7 @@
 		(uuid "96e820de-839a-48ca-880d-1afd4137505d")
 	)
 	(junction
-		(at 163.83 110.49)
+		(at 163.83 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9b4a48b-3868-4cb4-9c30-19e2abeffca7")
@@ -1296,23 +1290,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 129.54) (xy 176.53 129.54)
+			(xy 224.79 129.54) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08b27174-a512-4c43-b93a-1ce555a24166")
-	)
-	(wire
-		(pts
-			(xy 255.27 64.77) (xy 255.27 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08df2981-b03e-4138-b241-1ebb499dcf92")
 	)
 	(wire
 		(pts
@@ -1323,6 +1307,16 @@
 			(type default)
 		)
 		(uuid "0c3bc133-d26b-4209-99b5-895eed446a60")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8546b6-4fc7-4e32-bd25-07cabac72896")
 	)
 	(wire
 		(pts
@@ -1356,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 120.65) (xy 217.17 129.54)
+			(xy 224.79 120.65) (xy 224.79 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1386,13 +1380,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 110.49) (xy 176.53 110.49)
+			(xy 163.83 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1de17ce3-24b5-40ac-bb0c-4195d73eadee")
+	)
+	(wire
+		(pts
+			(xy 224.79 88.9) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24677c1d-0327-4e5b-a072-6dc2f6dd4740")
 	)
 	(wire
 		(pts
@@ -1406,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 200.66 88.9)
+			(xy 227.33 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1423,26 +1427,6 @@
 			(type default)
 		)
 		(uuid "3044edd2-88be-4920-a9cd-e0a1028bff1f")
-	)
-	(wire
-		(pts
-			(xy 274.32 67.31) (xy 274.32 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33eabeea-eb34-4139-828f-2a541986cf8e")
-	)
-	(wire
-		(pts
-			(xy 246.38 69.85) (xy 255.27 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365bca75-3c62-44bb-a398-aca1ecf03d7c")
 	)
 	(wire
 		(pts
@@ -1486,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 217.17 120.65)
+			(xy 245.11 120.65) (xy 224.79 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 176.53 110.49)
+			(xy 176.53 129.54) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1596,16 +1580,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 110.49) (xy 163.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eedc79a-f516-423e-8eba-7034f7c6ce43")
-	)
-	(wire
-		(pts
 			(xy 246.38 64.77) (xy 255.27 64.77)
 		)
 		(stroke
@@ -1626,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 274.32 36.83)
+			(xy 246.38 36.83) (xy 255.27 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1706,16 +1680,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 163.83 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c44d72-788d-4c9e-99de-f9a10af2f3b0")
-	)
-	(wire
-		(pts
 			(xy 245.11 120.65) (xy 245.11 121.92)
 		)
 		(stroke
@@ -1726,23 +1690,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 102.87) (xy 261.62 102.87)
+			(xy 255.27 64.77) (xy 255.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8960ced6-09ed-4b7a-b141-cfaec18a6821")
+	)
+	(wire
+		(pts
+			(xy 254 102.87) (xy 256.54 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b42f7fc-b9ea-46b2-be58-b1be1244a246")
-	)
-	(wire
-		(pts
-			(xy 255.27 67.31) (xy 274.32 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "931d05c3-2789-47df-90ef-4e0bac1c368c")
 	)
 	(wire
 		(pts
@@ -1796,7 +1760,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 85.09) (xy 224.79 67.31)
+			(xy 246.38 69.85) (xy 224.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8758942-282e-4106-b336-b221fbd99819")
+	)
+	(wire
+		(pts
+			(xy 222.25 83.82) (xy 222.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 85.09) (xy 224.79 85.09)
+			(xy 200.66 83.82) (xy 222.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1926,6 +1900,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 69.85) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e369ad46-3ee3-4c69-9eb9-a9aaf1706d8f")
+	)
+	(wire
+		(pts
 			(xy 254 130.81) (xy 254 142.24)
 		)
 		(stroke
@@ -1986,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 227.33 88.9)
+			(xy 227.33 72.39) (xy 227.33 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 67.31) (xy 246.38 67.31)
+			(xy 222.25 67.31) (xy 246.38 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 102.87 0)
+		(at 256.54 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2529,7 +2513,7 @@
 		(dnp no)
 		(uuid "7f4a020a-9024-42ab-8c75-230c779f2ecb")
 		(property "Reference" "#PWR066"
-			(at 261.62 109.22 0)
+			(at 256.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2524,7 @@
 			)
 		)
 		(property "Value" "GND_24"
-			(at 265.684 105.664 0)
+			(at 260.604 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2550,7 +2534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 102.87 0)
+			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +2545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 102.87 0)
+			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +2556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 102.87 0)
+			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3180,18 +3164,8 @@
 				(justify right)
 			)
 		)
-		(pin "L_AUX" output
-			(at 200.66 88.9 0)
-			(uuid "bb29bf5b-e4c8-4ae7-84c3-7d444f920739")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "L_LAMPEGGIANTE" output
-			(at 200.66 85.09 0)
+			(at 200.66 83.82 0)
 			(uuid "6f28463c-73d1-4f4e-b03c-f172ef0ba857")
 			(effects
 				(font
@@ -3233,6 +3207,26 @@
 		(pin "N" input
 			(at 167.64 64.77 90)
 			(uuid "091c95fd-9eb3-4b7d-81f1-561bfd6b43ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_COM" output
+			(at 200.66 88.9 0)
+			(uuid "832ba318-4055-4cff-a104-d29858e4ee9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_NO" output
+			(at 200.66 91.44 0)
+			(uuid "3976fc4b-7ee1-4412-91e7-0d521cac4431")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,6 +3696,63 @@
 			(project "ESPGate"
 				(path "/b60c7d88-73fa-438e-b89a-43cf7c5e23dc"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 -22.86)
+		(size 26.67 3.81)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92573cef-b5e6-466c-aa8d-177fb828c563")
+		(property "Sheetname" "Schemi Esempio"
+			(at 105.41 -23.5716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schemi-esempio.kicad_sch"
+			(at 105.41 -18.4654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 105.41 -22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESPGate"
+				(path "/b60c7d88-73fa-438e-b89a-43cf7c5e23dc"
+					(page "6")
 				)
 			)
 		)
