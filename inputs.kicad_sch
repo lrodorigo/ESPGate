@@ -1956,7 +1956,7 @@
 		(uuid "2a66d0b1-bd1d-4d8b-a228-c10a085eda1d")
 	)
 	(junction
-		(at 153.67 85.09)
+		(at 153.67 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aea4a7c-770f-4940-ab3b-5ac7b522b762")
@@ -1968,7 +1968,7 @@
 		(uuid "2b1e3cb5-98bd-4369-8783-cc3f33b9400b")
 	)
 	(junction
-		(at 165.1 85.09)
+		(at 165.1 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2be627dd-80b9-4be0-90f4-c0aa167ea6e8")
@@ -2026,6 +2026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cfeb11b-c23c-4e90-9c87-17ce3f43cf0c")
+	)
+	(junction
+		(at 139.7 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "478993ee-0db3-4c5c-b49c-bcae0767432c")
 	)
 	(junction
 		(at 73.66 41.91)
@@ -2106,19 +2112,13 @@
 		(uuid "71053013-ce20-4550-968a-9dd4977b285d")
 	)
 	(junction
-		(at 139.7 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "732fe50d-e72f-42e5-8e12-4590395fa908")
-	)
-	(junction
 		(at 57.15 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "734838a1-a29b-4cf0-a553-ed713f7afdde")
 	)
 	(junction
-		(at 153.67 92.71)
+		(at 165.1 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7db27bf3-fc82-4471-b1ab-839ee87c6950")
@@ -2160,7 +2160,7 @@
 		(uuid "8ab31600-b8de-43d7-98c2-a72022c95899")
 	)
 	(junction
-		(at 167.64 114.3)
+		(at 168.91 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b4ee212-6fb6-4219-815f-2a88cbf2dfc9")
@@ -2509,16 +2509,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 153.67 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1584c110-559c-4f82-bfa7-134d68f89f19")
-	)
-	(wire
-		(pts
 			(xy 45.72 77.47) (xy 48.26 77.47)
 		)
 		(stroke
@@ -2709,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 172.72 85.09)
+			(xy 165.1 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2736,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "41013284-aa1c-42f5-9a3d-63d3430dc0cc")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f76e87-6ff5-41ec-971e-5a2dc1c1184a")
 	)
 	(wire
 		(pts
@@ -2949,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 137.16 86.36)
+			(xy 135.89 86.36) (xy 139.7 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2976,16 +2976,6 @@
 			(type default)
 		)
 		(uuid "6d60d6ed-f50d-4146-af72-513c22345535")
-	)
-	(wire
-		(pts
-			(xy 137.16 86.36) (xy 137.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f79dd9b-301e-487f-a16f-8c792ab62bb0")
 	)
 	(wire
 		(pts
@@ -3039,16 +3029,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 139.7 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b787421-7df9-4866-bec7-2d11b0886ac7")
-	)
-	(wire
-		(pts
 			(xy 120.65 120.65) (xy 120.65 121.92)
 		)
 		(stroke
@@ -3066,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "7f3bfba4-03a0-46ca-b446-00875427b057")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80368094-4740-4051-be1b-c00fcd0c9e51")
 	)
 	(wire
 		(pts
@@ -3179,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 137.16 92.71)
+			(xy 139.7 91.44) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 137.16 92.71)
+			(xy 139.7 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3299,16 +3289,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f59a35-0c3a-41e3-ba69-9e2e7c63a660")
-	)
-	(wire
-		(pts
 			(xy 86.36 143.51) (xy 83.82 143.51)
 		)
 		(stroke
@@ -3359,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 121.92) (xy 153.67 121.92)
+			(xy 168.91 121.92) (xy 153.67 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3406,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "a048ef38-ca33-480e-9463-c962cce3adea")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a256c622-11e3-4250-9ae3-c01ea5eafcf4")
 	)
 	(wire
 		(pts
@@ -3539,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 137.16 91.44)
+			(xy 139.7 91.44) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3709,16 +3699,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 153.67 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c221ded0-214f-4d23-842f-daf7e7d43d74")
-	)
-	(wire
-		(pts
 			(xy 151.13 50.8) (xy 153.67 50.8)
 		)
 		(stroke
@@ -3759,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 153.67 85.09)
+			(xy 157.48 86.36) (xy 153.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3816,6 +3796,16 @@
 			(type default)
 		)
 		(uuid "d3aa4b61-a367-4cf3-904d-a9968eaeac08")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b3f201-119a-467b-96e4-527779a06f71")
 	)
 	(wire
 		(pts
@@ -3989,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 114.3) (xy 167.64 114.3)
+			(xy 166.37 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4054,7 @@
 	)
 	(hierarchical_label "ESP_IN_LIMIT_1"
 		(shape output)
-		(at 172.72 85.09 0)
+		(at 172.72 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4489,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 144.78 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4522,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 144.78 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5593,7 @@
 			)
 		)
 		(property "Value" "24V_INGRESSI"
-			(at 30.988 22.352 0)
+			(at 30.734 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6015,7 +6005,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 53.34 168.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6048,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 53.34 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 52.07 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +7288,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 52.07 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -7599,7 +7589,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 153.67 92.71 0)
+		(at 165.1 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7609,7 +7599,7 @@
 		(dnp no)
 		(uuid "5373731b-056a-43cc-8170-fe6646f16bf8")
 		(property "Reference" "#PWR034"
-			(at 153.67 99.06 0)
+			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,7 +7610,7 @@
 			)
 		)
 		(property "Value" "GND_5"
-			(at 153.924 97.536 0)
+			(at 168.91 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7630,7 +7620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 92.71 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +7631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 92.71 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 153.67 92.71 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8618,7 +8608,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 52.07 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8651,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 52.07 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -8883,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 85.09 90)
+		(at 161.29 86.36 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8894,7 +8884,7 @@
 		(dnp no)
 		(uuid "6e411668-bd4e-47ca-bf86-d26f78e8e85a")
 		(property "Reference" "R41"
-			(at 161.036 82.55 90)
+			(at 161.036 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8904,7 +8894,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 161.29 87.376 90)
+			(at 161.29 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8914,7 +8904,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0805"
-			(at 161.29 83.312 90)
+			(at 161.29 84.582 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8925,7 +8915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 85.09 0)
+			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,7 +8926,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 85.09 0)
+			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8947,7 +8937,7 @@
 			)
 		)
 		(property "LCSC Part" "C17513"
-			(at 161.29 85.09 90)
+			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 147.32 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9037,7 +9027,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 147.32 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -10180,7 +10170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 88.9 0)
+		(at 165.1 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10190,7 +10180,7 @@
 		(dnp no)
 		(uuid "951a7464-1e7d-4653-a07d-272b5a8edbb5")
 		(property "Reference" "C12"
-			(at 168.402 87.884 0)
+			(at 168.402 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10201,7 +10191,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.402 89.916 0)
+			(at 168.402 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10212,7 +10202,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0805"
-			(at 166.0652 92.71 0)
+			(at 166.0652 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 88.9 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +10224,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 88.9 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10245,7 +10235,7 @@
 			)
 		)
 		(property "LCSC Part" "C28233"
-			(at 165.1 88.9 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +10373,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 148.59 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10426,7 +10416,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 148.59 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -10835,7 +10825,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 147.32 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,7 +10868,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 147.32 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -11261,7 +11251,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 53.34 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11304,7 +11294,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 53.34 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -11928,7 +11918,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 52.07 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11971,7 +11961,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 52.07 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -12397,7 +12387,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 147.32 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12440,7 +12430,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 147.32 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -13157,7 +13147,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 118.11 0)
+		(at 168.91 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13167,7 +13157,7 @@
 		(dnp no)
 		(uuid "da21c641-6b9e-41cd-bb88-cc1f692e5e41")
 		(property "Reference" "C13"
-			(at 170.942 117.094 0)
+			(at 172.212 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13178,7 +13168,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 170.942 119.126 0)
+			(at 172.212 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13189,7 +13179,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0805"
-			(at 168.6052 121.92 0)
+			(at 169.8752 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13200,7 +13190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13211,7 +13201,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13222,7 +13212,7 @@
 			)
 		)
 		(property "LCSC Part" "C28233"
-			(at 167.64 118.11 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13778,7 +13768,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.2k"
 			(at 146.05 161.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +13811,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17513"
+		(property "LCSC Part" "C17379"
 			(at 146.05 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -14275,7 +14265,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 52.07 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14318,7 +14308,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17944"
+		(property "LCSC Part" "C4410"
 			(at 52.07 26.67 90)
 			(hide yes)
 			(show_name no)

@@ -1322,8 +1322,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "U1"
+				(at -5.334 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1333,7 +1333,7 @@
 				)
 			)
 			(property "Value" "IRM-05-5"
-				(at 0 -6.35 0)
+				(at -1.524 -7.112 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1399,7 +1399,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -1.27 0)
+					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "AC/L"
 						(effects
@@ -1417,7 +1417,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 1.27 0)
+					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "AC/N"
 						(effects
@@ -2218,16 +2218,16 @@
 		(uuid "cac6139e-159b-4d0c-b527-0cb06db98b0a")
 	)
 	(junction
-		(at 106.68 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10de3ba2-da2a-491d-a63d-cb28bba8d764")
-	)
-	(junction
 		(at 181.61 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1534fb7d-a03d-4e13-8aa1-00aa7b13afbd")
+	)
+	(junction
+		(at 34.29 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f0d4af9-73ef-40d0-a311-586493db89de")
 	)
 	(junction
 		(at 175.26 38.1)
@@ -2242,16 +2242,10 @@
 		(uuid "3a857880-110d-405c-b121-0d534e8fd397")
 	)
 	(junction
-		(at 109.22 90.17)
+		(at 38.1 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d244a85-c2ae-4731-ab54-2f2fcc91f8b7")
-	)
-	(junction
-		(at 40.64 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4251c6c8-2339-4ffa-b733-0a47870097e5")
+		(uuid "43ac5a3d-702f-4503-a676-2af0ee6a3b89")
 	)
 	(junction
 		(at 140.97 143.51)
@@ -2272,22 +2266,16 @@
 		(uuid "4d6d40c0-ce73-4139-aee5-b21626322369")
 	)
 	(junction
-		(at 57.15 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "637718d9-982d-41cb-a3e2-76c57cb6666e")
-	)
-	(junction
 		(at 151.13 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c85cc66-1eaa-4aec-a463-7a9fd8450a71")
 	)
 	(junction
-		(at 139.7 97.79)
+		(at 109.22 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d738cc4-5ceb-44d1-8746-a8598f5b735f")
+		(uuid "7258ef09-1c9f-4d99-8541-11b45e8cf84a")
 	)
 	(junction
 		(at 214.63 80.01)
@@ -2296,10 +2284,10 @@
 		(uuid "7c525f01-2380-4664-94da-c3ea10aa542e")
 	)
 	(junction
-		(at 153.67 90.17)
+		(at 68.58 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b3c803e-6a50-4eb6-84e1-fc4d5dc0a21b")
+		(uuid "86591c37-d018-41cf-bf9a-8bdcb6e218e3")
 	)
 	(junction
 		(at 140.97 133.35)
@@ -2314,10 +2302,28 @@
 		(uuid "a7fa784b-0af7-4b3a-bfc6-75ba9864e439")
 	)
 	(junction
+		(at 106.68 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85605e4-7e8e-4698-bd33-8d3fbfb42655")
+	)
+	(junction
+		(at 68.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f2d27d-b745-49a8-9143-88031d1f93fb")
+	)
+	(junction
 		(at 214.63 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc72e0ae-9a95-48f9-93fd-d1414c70893d")
+	)
+	(junction
+		(at 67.31 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d5d29b-0b76-4cf5-bee5-0e09dd2785fc")
 	)
 	(junction
 		(at 132.08 97.79)
@@ -2326,7 +2332,7 @@
 		(uuid "c9c78cf0-a5f8-455a-b7ed-3734c0b600dd")
 	)
 	(junction
-		(at 139.7 90.17)
+		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce4141e5-9395-43c2-a36a-1fdd4bb91023")
@@ -2344,12 +2350,6 @@
 		(uuid "dea870f6-5554-45db-b031-a6074f19ea54")
 	)
 	(junction
-		(at 40.64 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e23746c5-72ab-4129-97d5-55b26ce283cd")
-	)
-	(junction
 		(at 153.67 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2360,18 +2360,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f287dd07-a115-4646-8589-9c493cd988ff")
-	)
-	(junction
-		(at 57.15 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4dc4618-224a-45d7-a10c-c82bf122833a")
-	)
-	(junction
-		(at 57.15 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f59a528a-f907-4f9f-bc82-565999b4d161")
 	)
 	(wire
 		(pts
@@ -2395,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 54.61) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af18ca4-b546-45d5-833c-4a7b8065aaff")
+	)
+	(wire
+		(pts
 			(xy 180.34 43.18) (xy 189.23 43.18)
 		)
 		(stroke
@@ -2405,27 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 116.84) (xy 57.15 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1710129a-fcb8-43ec-abec-da9d0fd8ebc8")
-	)
-	(wire
-		(pts
-			(xy 57.15 116.84) (xy 57.15 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18453df9-5582-4423-8645-3fd099c1ebb2")
-	)
-	(wire
-		(pts
-			(xy 181.61 133.35) (xy 171.45 133.35)
+			(xy 181.61 133.35) (xy 173.99 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2445,6 +2423,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 63.5) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1fd5c8-a7b0-4dec-afd7-580a59b837f0")
+	)
+	(wire
+		(pts
 			(xy 175.26 38.1) (xy 189.23 38.1)
 		)
 		(stroke
@@ -2455,6 +2443,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 54.61) (xy 34.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2273a4d0-65a3-4119-b3fb-4a0c9443a088")
+	)
+	(wire
+		(pts
 			(xy 137.16 137.16) (xy 132.08 137.16)
 		)
 		(stroke
@@ -2462,36 +2460,6 @@
 			(type default)
 		)
 		(uuid "2cf3bf20-ad7a-4114-af5f-c1229c7cd3ff")
-	)
-	(wire
-		(pts
-			(xy 57.15 105.41) (xy 106.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dd7bc39-4aa2-4250-929a-335be0e88045")
-	)
-	(wire
-		(pts
-			(xy 40.64 76.2) (xy 46.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e516112-a614-47e7-9dfb-66ac0068ed03")
-	)
-	(wire
-		(pts
-			(xy 153.67 38.1) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f04db03-f255-4261-9551-21c23eb81fb5")
 	)
 	(wire
 		(pts
@@ -2535,23 +2503,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 57.15 92.71)
+			(xy 52.07 87.63) (xy 34.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ae6e776-f750-42cc-afc5-5d6f02e1c594")
-	)
-	(wire
-		(pts
-			(xy 57.15 76.2) (xy 54.61 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b5ec04-a50e-4861-be4b-202e63855b32")
+		(uuid "44f18261-3321-4f81-84ac-3125e2217dd7")
 	)
 	(wire
 		(pts
@@ -2565,23 +2523,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 132.08 92.71)
+			(xy 132.08 97.79) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4be46689-8958-4509-bbc0-8c07b80680c2")
-	)
-	(wire
-		(pts
-			(xy 57.15 106.68) (xy 57.15 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c859744-4280-4c5e-b444-a4c6cfca9fe5")
 	)
 	(wire
 		(pts
@@ -2625,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 80.01) (xy 153.67 90.17)
+			(xy 153.67 38.1) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 161.29 133.35)
+			(xy 151.13 133.35) (xy 163.83 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2665,17 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 57.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c0d3f9-6e20-4fab-8c38-9eb2a43e547b")
-	)
-	(wire
-		(pts
-			(xy 151.13 115.57) (xy 193.04 115.57)
+			(xy 151.13 124.46) (xy 222.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2715,17 +2653,27 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 57.15 92.71)
+			(xy 29.21 95.25) (xy 38.1 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81c5e49f-dc6a-465b-8149-454ef7c81269")
+		(uuid "831486d4-8bf1-4c0c-8e2c-2065f758da59")
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 111.76 90.17)
+			(xy 139.7 88.9) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fec6b56-bc89-4435-ae8d-bd563010b370")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2735,17 +2683,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 153.67 97.79)
+			(xy 38.1 95.25) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ca84a59-e45f-48e9-b8f8-e3de16e4a577")
+		(uuid "a3221695-87c0-4806-8cc6-293254b58c88")
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 109.22 90.17)
+			(xy 106.68 87.63) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44fb464-05fb-4595-90cf-3f5e9128778c")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2723,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 34.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9712e40-b555-4580-84ca-e156204cd41b")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfa72f3-1570-4ac1-9654-aaa186d60cc0")
+	)
+	(wire
+		(pts
 			(xy 140.97 142.24) (xy 140.97 143.51)
 		)
 		(stroke
@@ -2772,16 +2750,6 @@
 			(type default)
 		)
 		(uuid "ac269404-4363-42ad-86aa-49b4ea208f34")
-	)
-	(wire
-		(pts
-			(xy 40.64 90.17) (xy 40.64 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae57ae4b-9c26-4154-8a5e-9be4e154f4c7")
 	)
 	(wire
 		(pts
@@ -2815,13 +2783,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 106.68 137.16)
+			(xy 109.22 95.25) (xy 109.22 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba905c9d-e86a-414d-a00a-1ed047e4ada7")
+		(uuid "bb7fb4f8-d600-4ba9-9b18-3f586d74c0df")
 	)
 	(wire
 		(pts
@@ -2835,27 +2803,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 109.22 90.17)
+			(xy 62.23 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c98fd023-0d76-41cf-892d-44e4335cb899")
+		(uuid "c3135b54-7892-45d5-8d0c-0abe2330c4d5")
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 57.15 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce801041-06a3-45d3-9b1b-efd2725d6e05")
-	)
-	(wire
-		(pts
-			(xy 139.7 90.17) (xy 129.54 90.17)
+			(xy 129.54 88.9) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 106.68 92.71)
+			(xy 111.76 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2895,6 +2853,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 63.5) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65d5619-b70b-4595-a1d2-ba7eb9d650c5")
+	)
+	(wire
+		(pts
 			(xy 207.01 110.49) (xy 214.63 110.49)
 		)
 		(stroke
@@ -2915,23 +2883,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 90.17) (xy 153.67 90.17)
+			(xy 60.96 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8560aa4-ebf5-4d7b-bb63-b4fc9edb428e")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1aefd3e-1e30-409d-87ab-4b6fb28770d8")
-	)
-	(wire
-		(pts
-			(xy 40.64 76.2) (xy 40.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4fa2d30-7e62-4de4-a7a4-51421c14d290")
 	)
 	(wire
 		(pts
@@ -2955,17 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3de77d8-b6b4-494c-af73-04283d306771")
-	)
-	(wire
-		(pts
-			(xy 132.08 92.71) (xy 129.54 92.71)
+			(xy 132.08 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 151.13 133.35)
+			(xy 151.13 124.46) (xy 151.13 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3046,6 +3004,17 @@
 		)
 		(uuid "35e541ae-e588-4de8-974f-2e04257484ca")
 	)
+	(hierarchical_label "L_IN"
+		(shape input)
+		(at 27.94 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "546c8b17-0b74-49c5-88e9-14b42d7e424b")
+	)
 	(hierarchical_label "ESP_LED_GR"
 		(shape input)
 		(at 193.04 102.87 180)
@@ -3059,7 +3028,7 @@
 	)
 	(hierarchical_label "24V_RELAY"
 		(shape output)
-		(at 193.04 115.57 0)
+		(at 222.25 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,7 +3039,7 @@
 	)
 	(hierarchical_label "L_MOT_IN"
 		(shape output)
-		(at 57.15 72.39 90)
+		(at 83.82 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3079,20 +3048,9 @@
 		)
 		(uuid "a2402ce8-40f9-4485-8eda-0020b1eb2392")
 	)
-	(hierarchical_label "L_IN"
-		(shape input)
-		(at 50.8 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c549c2b9-7e13-44fb-83dc-c806d532e7d5")
-	)
 	(hierarchical_label "N_IN"
 		(shape input)
-		(at 29.21 116.84 180)
+		(at 29.21 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,7 +3061,7 @@
 	)
 	(symbol
 		(lib_id "Easyeda:PTF-77")
-		(at 57.15 100.33 90)
+		(at 57.15 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3114,29 +3072,27 @@
 		(fields_autoplaced yes)
 		(uuid "016f2612-5276-4e74-98b1-06f218e6a43e")
 		(property "Reference" "FH1"
-			(at 59.69 99.0599 90)
+			(at 57.15 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PTF-77"
-			(at 59.69 101.5999 90)
+			(at 57.15 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:FUSE-TH_L24.4-W9.4-P22.60"
-			(at 64.77 100.33 0)
+			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3147,7 +3103,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Fuse-Holders_XFCN-PTF-77_C717030.html"
-			(at 67.31 100.33 0)
+			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3158,7 +3114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 100.33 0)
+			(at 57.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,7 +3125,7 @@
 			)
 		)
 		(property "LCSC Part" "C717030"
-			(at 69.85 100.33 0)
+			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3940,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 50.8 76.2 90)
+		(at 67.31 59.69 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3995,7 +3951,7 @@
 		(dnp no)
 		(uuid "51e84a76-6fba-469f-b480-24ff2c45ef70")
 		(property "Reference" "MOV5"
-			(at 53.086 72.39 90)
+			(at 69.85 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4006,7 +3962,7 @@
 			)
 		)
 		(property "Value" "14D471K_C8852"
-			(at 53.086 69.85 90)
+			(at 70.104 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4017,7 +3973,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:RES-TH_L16.5-W5.9-P7.50-D0.8-S3.00"
-			(at 50.8 74.422 90)
+			(at 65.532 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,7 +3984,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Varistors_14D471K_C8852.html"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +3995,7 @@
 			)
 		)
 		(property "Description" "Voltage dependent resistor"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4050,7 +4006,7 @@
 			)
 		)
 		(property "LCSC Part" "C8852"
-			(at 63.5 76.2 0)
+			(at 67.31 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,7 +4017,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,7 +4028,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,7 +4039,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4094,7 +4050,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4061,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 50.8 76.2 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,89 +4349,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8d7d3ffe-3ddd-4fc8-b18d-d38113b8296a")
-		(property "Reference" "C5"
-			(at 157.226 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 157.226 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 154.6352 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ceb1e5c2-477f-4d64-8597-d0ed233408d3")
-		)
-		(pin "1"
-			(uuid "77660b3b-4a4a-4734-8b8e-db3f85774dd1")
-		)
-		(instances
-			(project "ESPGate"
-				(path "/b60c7d88-73fa-438e-b89a-43cf7c5e23dc/55710830-2f4b-40e1-80ff-34284377ce73"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Easyeda:PTF-77")
-		(at 166.37 133.35 0)
+		(at 168.91 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4486,7 +4361,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fe3e162-c9a6-4a33-8cd8-00b156e51a16")
 		(property "Reference" "FH4"
-			(at 166.37 128.27 0)
+			(at 168.91 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4496,7 +4371,7 @@
 			)
 		)
 		(property "Value" "PTF-77"
-			(at 166.37 130.81 0)
+			(at 168.91 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4506,7 +4381,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:FUSE-TH_L24.4-W9.4-P22.60"
-			(at 166.37 140.97 0)
+			(at 168.91 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4517,7 +4392,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Fuse-Holders_XFCN-PTF-77_C717030.html"
-			(at 166.37 143.51 0)
+			(at 168.91 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 133.35 0)
+			(at 168.91 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +4414,7 @@
 			)
 		)
 		(property "LCSC Part" "C717030"
-			(at 166.37 146.05 0)
+			(at 168.91 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4534,7 @@
 	)
 	(symbol
 		(lib_id "Easyeda:PTF-77")
-		(at 57.15 82.55 90)
+		(at 55.88 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4670,29 +4545,27 @@
 		(fields_autoplaced yes)
 		(uuid "a62c85cc-c7c5-4bcb-8776-fbace758969d")
 		(property "Reference" "FH3"
-			(at 59.69 81.2799 90)
+			(at 55.88 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PTF-77"
-			(at 59.69 83.8199 90)
+			(at 55.88 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:FUSE-TH_L24.4-W9.4-P22.60"
-			(at 64.77 82.55 0)
+			(at 55.88 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4576,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Fuse-Holders_XFCN-PTF-77_C717030.html"
-			(at 67.31 82.55 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +4587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 82.55 0)
+			(at 55.88 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4598,7 @@
 			)
 		)
 		(property "LCSC Part" "C717030"
-			(at 69.85 82.55 0)
+			(at 55.88 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4625,7 @@
 	)
 	(symbol
 		(lib_id "Easyeda:IRM-05-5")
-		(at 120.65 91.44 0)
+		(at 120.65 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4762,7 +4635,7 @@
 		(dnp no)
 		(uuid "aa0c192b-0152-4f9a-858b-80571a8cada5")
 		(property "Reference" "U1"
-			(at 115.316 96.52 0)
+			(at 115.316 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4772,7 +4645,7 @@
 			)
 		)
 		(property "Value" "IRM-05-5"
-			(at 119.126 98.552 0)
+			(at 119.126 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4782,7 +4655,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:PWRM-TH_IRM-05-5"
-			(at 120.65 100.33 0)
+			(at 120.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +4666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 91.44 0)
+			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4677,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 91.44 0)
+			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4688,7 @@
 			)
 		)
 		(property "LCSC Part" "C48603696"
-			(at 120.65 102.87 0)
+			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,7 +4731,7 @@
 		(dnp no)
 		(uuid "abe5b53d-df5f-4ebe-983a-9457da685f3d")
 		(property "Reference" "C3"
-			(at 143.002 92.964 0)
+			(at 143.002 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5354,7 +5227,7 @@
 	)
 	(symbol
 		(lib_id "Device:Varistor")
-		(at 57.15 110.49 180)
+		(at 68.58 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5364,7 +5237,7 @@
 		(dnp no)
 		(uuid "e7c44d90-c51e-4e11-828e-aad89857904b")
 		(property "Reference" "MOV4"
-			(at 60.96 109.0265 0)
+			(at 72.39 89.9765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5375,7 +5248,7 @@
 			)
 		)
 		(property "Value" "14D471K_C8852"
-			(at 60.96 111.5665 0)
+			(at 72.39 92.5165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5386,7 +5259,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:RES-TH_L16.5-W5.9-P7.50-D0.8-S3.00"
-			(at 58.928 110.49 90)
+			(at 70.358 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5270,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Varistors_14D471K_C8852.html"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5281,7 @@
 			)
 		)
 		(property "Description" "Voltage dependent resistor"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5292,7 @@
 			)
 		)
 		(property "LCSC Part" "C8852"
-			(at 57.15 97.79 0)
+			(at 68.58 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5303,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5314,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +5325,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5336,7 @@
 			)
 		)
 		(property "Sim.Params" "threshold=1k"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,7 +5347,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 57.15 110.49 0)
+			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

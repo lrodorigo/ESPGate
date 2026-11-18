@@ -12,11 +12,11 @@
 > 💡 *Install it once. Forget it. Your gate just works—through thunderstorms, power surges and a decade of daily cycles.*
 
 * 🧠 **Platform:** Custom `150 × 110 mm` PCB built around an `ESP32-S3-WROOM-1` for native ESPHome integration.
-* ⚙️ **Target Load:** Single-phase `230V AC` sliding/swing gates and garage roller shutters.
+* ⚙️ **Target Load:** Single-phase `230V AC` sliding/swing gates (**single or double leaf**) and garage roller shutters.
 * 🛡️ **Design Goal:** Industrial-grade mains isolation and surge protection in a single self-contained board—zero external relay modules or floating power supplies.
-* ⚙️ **Motor:** `1×` single-phase `230V AC` motor (open/close).
-* 📥 **Inputs:** `6×` opto-isolated `24V` (`2` photocells, `2` limit switches, `2` push-buttons).
-* 📤 **Outputs:** `1×` motor (power + direction relays), `2×` `230V AC` SSR (flashing beacon, auxiliary).
+* ⚙️ **Motors:** up to `2×` single-phase `230V AC` motors (open/close), one per leaf.
+* 📥 **Inputs:** opto-isolated `24V` (photocells, limit switches, push-buttons) plus a `433.92 MHz` rolling-code RF receiver (`4` channels).
+* 📤 **Outputs:** motor relays (power + direction, with a dedicated neutral relay per leaf), `230V AC` flashing beacon and auxiliary output.
 
 ---
 
@@ -37,12 +37,30 @@
 > ### 🙋 Looking for expenses split!
 > Help me get the first `5` boards made: **3 spots available at ~`55–60 €` each.**
 
-* 🧪 **Stage:** Design complete, **not ordered yet**. The first prototype batch (PCB + SMT assembly from JLCPCB, `5` boards) is ready in the cart and will be ordered as soon as the 3 spare boards find a home.
+* 🧪 **Stage:** Design updated with **double-leaf support** and an **RF receiver** (see [Changelog](#-changelog)), **not ordered yet**. Some sections below (renders, terminals, architecture) may still describe the previous single-leaf revision.
+* 📦 **Batch:** The first prototype batch (PCB + SMT assembly from JLCPCB, `5` boards) is ready in the cart and will be ordered as soon as the 3 spare boards find a home.
 * 🤝 **Looking for 3 early adopters:** I keep `2` boards for myself and I'm looking for `3` people willing to refund the cost of the other three boards (about `55–60 €` per board). Spending ~`300 €` for just two boards makes no sense, so splitting the batch is what makes this prototype run viable.
 * 🛡️ **Risk is mine:** I will personally perform the **first power-up** and bring-up of every board. If a board doesn't work, that's on me, not on you.
 * 📬 **Interested?** Open an issue or get in touch.
 
 ![JLCPCB cart](docs/project-status.png)
+
+---
+
+## 📝 Changelog
+
+### Unreleased (since v1.0)
+
+* ➕ **Double-leaf gate support:**
+  * The `triac` output was replaced with a `relay`, and an extra `relay` + `optocoupler` were added to drive a second leaf.
+  * Both leaves share the same `MOTOR DIR` relay, so they always move in the direction set by how the phase is wired: leaf 1 clockwise / leaf 2 counter-clockwise (standard), or leaf 1 clockwise / leaf 2 clockwise.
+  * The delay between the two leaves is **programmable**.
+  * The direction wires of the two motors are wired **in parallel** (phase), while each leaf has its **own neutral relay**.
+* 📡 **RF remote receiver:**
+  * Added a [`433.92 MHz` 4-channel rolling-code receiver module](https://rf-modules.com/433-92-Receiver-Module-with-on-board-decoding-RC-RHCS-4CH-p244180431) with on-board decoding.
+  * `SMA` connector on the PCB for an external antenna.
+  * The `4` RF channels are wired to independent ESP32 GPIOs, not in parallel with the push-buttons.
+* 📍 **Pinout:** updated to the current schematic.
 
 ---
 
@@ -91,20 +109,22 @@
 ## 📍 ESP32-S3 Pinout Map
 
 * 📤 **Outputs:**
-  * `GPIO8` (`ESP_REL_MOT_PWR`, Active `HIGH`): Main motor power relay (`MOTOR PWR`).
-  * `GPIO18` (`ESP_REL_DIR`, Active `HIGH`): Direction relay (`MOTOR DIR`: `LOW` = Open, `HIGH` = Close).
-  * `GPIO16` (`ESP_LAMP`, Active `HIGH`): Flashing beacon SSR (`LAMP`).
-  * `GPIO15` (`ESP_AUX`, Active `HIGH`): Auxiliary SSR (`AUX`).
-  * `GPIO5` (`ESP_LED_GR`, Active `HIGH`): Onboard green status LED (`STATUS`).
+  * `GPIO16` (`ESP_REL_MOT_PWR`, Active `HIGH`): Main motor power relay (`MOTOR PWR`).
+  * `GPIO7` (`ESP_REL_DIR`, Active `HIGH`): Direction relay (`MOTOR DIR`), shared by both leaves.
+  * `GPIO15` (`ESP_N_MOT1`, Active `HIGH`): Neutral relay of leaf 1.
+  * `GPIO6` (`ESP_LAMP`, Active `HIGH`): Flashing beacon output (`LAMP`).
+  * `GPIO5` (`ESP_AUX`, Active `HIGH`): Auxiliary output (`AUX`).
+  * `GPIO4` (`ESP_LED_GR`, Active `HIGH`): Onboard green status LED (`STATUS`).
 * 📥 **Inputs:**
-  * `GPIO11` (`ESP_IN_FOTOC_1`, Active `LOW`): Photocell 1 (`P1`).
-  * `GPIO12` (`ESP_IN_FOTOC_2`, Active `LOW`): Photocell 2 (`P2`).
-  * `GPIO14` (`ESP_IN_LIMIT_1`, Active `LOW`): Open limit switch (`L1`).
-  * `GPIO21` (`ESP_IN_LIMIT_2`, Active `LOW`): Close limit switch (`L2`).
+  * `GPIO9` (`ESP_IN_FOTOC_1`, Active `LOW`): Photocell 1 (`P1`).
+  * `GPIO10` (`ESP_IN_FOTOC_2`, Active `LOW`): Photocell 2 (`P2`).
+  * `GPIO12` (`ESP_IN_LIMIT_1`, Active `LOW`): Limit switch 1 (`L1`).
+  * `GPIO11` (`ESP_IN_LIMIT_2`, Active `LOW`): Limit switch 2 (`L2`).
   * `GPIO38` (`ESP_IN_BTN_1`, Active `LOW`): Push-button 1 (`B1`).
   * `GPIO39` (`ESP_IN_BTN_2`, Active `LOW`): Push-button 2 (`B2`).
   * `GPIO13` (`SW3`, Active `LOW`): Onboard `CONFIG` button.
-  * `GPIO4` (`ESP_IN_NTC`, ADC): Optional external NTC thermistor input (`NTC1`).
+* 📡 **RF Receiver (`J9`, `4` independent channels, not in parallel with the buttons):**
+  * `GPIO14` (`RF_CH1`), `GPIO21` (`RF_CH2`), `GPIO40` (`RF_CH3`), `GPIO41` (`RF_CH4`), each with a `10 kΩ` pull-up to `3.3V`.
 * 🔌 **Debug UART (`J4`):**
   * `GPIO0` (`SW1`, Active `LOW`): Onboard `FLASH` / Boot mode button.
   * `GPIO43` (`TXD0`) / `GPIO44` (`RXD0`): 3.3V UART header (`330 Ω` series protection resistors).
