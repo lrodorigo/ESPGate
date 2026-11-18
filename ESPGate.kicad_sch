@@ -1390,6 +1390,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 55.88) (xy 24.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd0870f-9dca-48f6-945c-584c4ef2c5ca")
+	)
+	(wire
+		(pts
 			(xy 224.79 88.9) (xy 200.66 88.9)
 		)
 		(stroke
@@ -1457,6 +1467,16 @@
 			(type default)
 		)
 		(uuid "3adfb077-3d89-4d73-9cbf-0685c65a2de7")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af237ca-54c8-4b75-a51a-a6b82f42ecb3")
 	)
 	(wire
 		(pts
@@ -1560,6 +1580,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 55.88) (xy 24.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51311d4c-c372-4647-b6ab-ebc4dfdfde37")
+	)
+	(wire
+		(pts
 			(xy 210.82 55.88) (xy 246.38 55.88)
 		)
 		(stroke
@@ -1637,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "7817415a-7026-4e0e-b7a3-7c26a0ceb255")
+	)
+	(wire
+		(pts
+			(xy 24.13 78.74) (xy 35.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b863d0-dae5-4f4e-922c-dd96108a213d")
 	)
 	(wire
 		(pts
@@ -3234,6 +3274,16 @@
 				(justify right)
 			)
 		)
+		(pin "ESP_N_MOT1" input
+			(at 127 96.52 180)
+			(uuid "f622a4fb-75bb-4852-9a33-a3e9b1a330d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ESPGate"
 				(path "/b60c7d88-73fa-438e-b89a-43cf7c5e23dc"
@@ -3398,6 +3448,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ESP_N_MOT1" output
+			(at 90.17 96.52 0)
+			(uuid "1f50ad61-f43e-4160-9bb1-b406bf101cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ESP32" output
+			(at 35.56 78.74 180)
+			(uuid "50e722ca-cd89-47a4-90d8-00b9d767fc1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3685,6 +3755,16 @@
 		(pin "3V3_ESP32" output
 			(at 35.56 58.42 180)
 			(uuid "a2e134cd-158c-4861-a6db-38f115b2c433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_ESP32" output
+			(at 35.56 55.88 180)
+			(uuid "59c20573-cef7-4a52-b0ab-bfae1da61799")
 			(effects
 				(font
 					(size 1.27 1.27)
