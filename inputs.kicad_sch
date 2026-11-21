@@ -1956,13 +1956,13 @@
 		(uuid "2a66d0b1-bd1d-4d8b-a228-c10a085eda1d")
 	)
 	(junction
-		(at 153.67 86.36)
+		(at 151.13 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aea4a7c-770f-4940-ab3b-5ac7b522b762")
 	)
 	(junction
-		(at 153.67 175.26)
+		(at 151.13 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b1e3cb5-98bd-4369-8783-cc3f33b9400b")
@@ -2136,7 +2136,7 @@
 		(uuid "81306d53-7c55-48b8-9fc6-429a4ce4c705")
 	)
 	(junction
-		(at 154.94 143.51)
+		(at 151.13 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e235a6-7a3a-4adf-8c9a-6110a92e8205")
@@ -2172,7 +2172,7 @@
 		(uuid "90384017-0de7-471f-b924-bd979f74738f")
 	)
 	(junction
-		(at 153.67 60.96)
+		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b6d137-5f30-4fd8-8f01-6613ffc6bf64")
@@ -2329,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00fb5c9a-97d9-44ef-962e-d742d8c15831")
-	)
-	(wire
-		(pts
 			(xy 31.75 135.89) (xy 39.37 135.89)
 		)
 		(stroke
@@ -2369,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 173.99) (xy 153.67 175.26)
+			(xy 151.13 173.99) (xy 151.13 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2416,16 +2406,6 @@
 			(type default)
 		)
 		(uuid "08af78ac-3295-417f-b7b9-34dbc72371c2")
-	)
-	(wire
-		(pts
-			(xy 153.67 60.96) (xy 158.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a57a02f-0151-4d23-8069-2cfde9e41b8d")
 	)
 	(wire
 		(pts
@@ -2599,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 175.26) (xy 153.67 175.26)
+			(xy 138.43 175.26) (xy 161.29 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2749,16 +2729,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 143.51) (xy 157.48 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470562d4-4fd6-4f68-a614-53df4ea42d11")
-	)
-	(wire
-		(pts
 			(xy 135.89 35.56) (xy 154.94 35.56)
 		)
 		(stroke
@@ -2889,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 163.83) (xy 153.67 163.83)
+			(xy 149.86 163.83) (xy 151.13 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 143.51) (xy 154.94 143.51)
+			(xy 138.43 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 153.67 86.36)
+			(xy 139.7 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 133.35) (xy 154.94 133.35)
+			(xy 148.59 133.35) (xy 151.13 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 86.36) (xy 153.67 85.09)
+			(xy 151.13 86.36) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3426,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "a6386f1e-a157-4d1c-8304-57920627e0bf")
-	)
-	(wire
-		(pts
-			(xy 153.67 175.26) (xy 161.29 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6714faf-f7ae-4078-b6cc-3d676231fda7")
 	)
 	(wire
 		(pts
@@ -3699,16 +3659,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 153.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f558c8-9f4c-413c-a952-9aa2527bd85a")
-	)
-	(wire
-		(pts
 			(xy 120.65 60.96) (xy 120.65 62.23)
 		)
 		(stroke
@@ -3736,16 +3686,6 @@
 			(type default)
 		)
 		(uuid "cb902851-cdf3-42c7-bfe3-252cb8a3e589")
-	)
-	(wire
-		(pts
-			(xy 157.48 86.36) (xy 153.67 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc615357-b922-4faf-85bb-b9c3dde0c3bb")
 	)
 	(wire
 		(pts
@@ -3849,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 133.35) (xy 144.78 133.35)
+			(xy 138.43 133.35) (xy 140.97 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 153.67 60.96)
+			(xy 139.7 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "2k"
 			(at 144.78 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4462,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C17604"
 			(at 144.78 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -5480,7 +5420,7 @@
 	(symbol
 		(lib_name "FC-2012HRK-620D_1")
 		(lib_id "Easyeda:FC-2012HRK-620D")
-		(at 154.94 138.43 270)
+		(at 151.13 138.43 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5491,7 +5431,7 @@
 		(dnp no)
 		(uuid "253e7a55-0711-40dc-86c9-f06820454b76")
 		(property "Reference" "LED11"
-			(at 159.766 135.89 90)
+			(at 155.956 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5501,7 +5441,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 163.068 137.922 90)
+			(at 159.258 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5511,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-			(at 147.32 138.43 0)
+			(at 143.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5462,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
-			(at 144.78 138.43 0)
+			(at 140.97 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,7 +5473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 138.43 0)
+			(at 151.13 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +5484,7 @@
 			)
 		)
 		(property "LCSC Part" "C84256"
-			(at 142.24 138.43 0)
+			(at 138.43 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6614,7 +6554,7 @@
 	(symbol
 		(lib_name "FC-2012HRK-620D_1")
 		(lib_id "Easyeda:FC-2012HRK-620D")
-		(at 153.67 80.01 270)
+		(at 151.13 80.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6625,7 +6565,7 @@
 		(dnp no)
 		(uuid "3c8abb3e-dbc6-4e45-9423-9dc3acecc588")
 		(property "Reference" "LED9"
-			(at 158.496 77.47 90)
+			(at 155.956 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,7 +6575,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 161.798 79.502 90)
+			(at 159.258 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6645,17 +6585,6 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-			(at 146.05 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6666,8 +6595,19 @@
 				)
 			)
 		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
-			(at 153.67 80.01 0)
+			(at 151.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6678,7 +6618,7 @@
 			)
 		)
 		(property "LCSC Part" "C84256"
-			(at 140.97 80.01 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 141.986 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +7929,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 139.7 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -8791,7 +8731,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 141.986 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8774,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 139.7 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8984,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "2k"
 			(at 147.32 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9027,7 +8967,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C17604"
 			(at 147.32 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -9396,7 +9336,7 @@
 	(symbol
 		(lib_name "FC-2012HRK-620D_1")
 		(lib_id "Easyeda:FC-2012HRK-620D")
-		(at 153.67 168.91 270)
+		(at 151.13 168.91 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9407,7 +9347,7 @@
 		(dnp no)
 		(uuid "7fb20362-bc2c-4fef-93e0-ef1cd7342fa0")
 		(property "Reference" "LED6"
-			(at 158.496 166.37 90)
+			(at 155.956 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9417,7 +9357,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 161.798 168.402 90)
+			(at 159.258 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9427,17 +9367,6 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-			(at 146.05 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
 			(at 143.51 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9448,8 +9377,19 @@
 				)
 			)
 		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
+			(at 140.97 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
-			(at 153.67 168.91 0)
+			(at 151.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9460,7 +9400,7 @@
 			)
 		)
 		(property "LCSC Part" "C84256"
-			(at 140.97 168.91 0)
+			(at 138.43 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9446,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 140.716 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9489,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 138.43 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -9997,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 139.446 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10040,7 +9980,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 137.16 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 133.35 270)
+		(at 144.78 133.35 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10364,7 +10304,7 @@
 		(dnp no)
 		(uuid "99a1d89d-6128-49fb-b086-ae595ddbb637")
 		(property "Reference" "R47"
-			(at 148.844 135.89 90)
+			(at 145.034 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10373,8 +10313,8 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
-			(at 148.59 131.064 90)
+		(property "Value" "2k"
+			(at 144.78 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10384,7 +10324,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0805"
-			(at 148.59 135.128 90)
+			(at 144.78 135.128 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10395,7 +10335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 133.35 0)
+			(at 144.78 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10346,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 133.35 0)
+			(at 144.78 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10416,8 +10356,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
-			(at 148.59 133.35 90)
+		(property "LCSC Part" "C17604"
+			(at 144.78 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10554,7 +10494,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 140.716 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10597,7 +10537,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 138.43 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -10825,7 +10765,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "2k"
 			(at 147.32 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10868,7 +10808,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C17604"
 			(at 147.32 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -12192,7 +12132,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "10k"
 			(at 140.716 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12235,7 +12175,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17772"
+		(property "LCSC Part" "C17414"
 			(at 138.43 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -12387,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "2k"
 			(at 147.32 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12430,7 +12370,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C17604"
 			(at 147.32 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -13768,7 +13708,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "2k"
 			(at 146.05 161.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13811,7 +13751,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17379"
+		(property "LCSC Part" "C17604"
 			(at 146.05 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -14520,7 +14460,7 @@
 	(symbol
 		(lib_name "FC-2012HRK-620D_1")
 		(lib_id "Easyeda:FC-2012HRK-620D")
-		(at 153.67 55.88 270)
+		(at 151.13 55.88 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14531,7 +14471,7 @@
 		(dnp no)
 		(uuid "ffcdd0e6-ae35-4498-8116-8821e6de9899")
 		(property "Reference" "LED8"
-			(at 158.496 53.34 90)
+			(at 155.956 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14541,7 +14481,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 161.798 55.372 90)
+			(at 159.258 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14551,17 +14491,6 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
 			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14572,8 +14501,19 @@
 				)
 			)
 		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-80-180mcd_C84256.html"
+			(at 140.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
-			(at 153.67 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14584,7 +14524,7 @@
 			)
 		)
 		(property "LCSC Part" "C84256"
-			(at 140.97 55.88 0)
+			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

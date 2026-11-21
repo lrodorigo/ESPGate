@@ -1,3 +1,5 @@
+<p align="right">🇬🇧 English · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 <h1 align="center">⛩️ ESPGate v1.0</h1>
 
 <h2 align="center">⏳ Built to last 10 years.<br>Isolated. Surge-protected. Local-first.</h2>
@@ -16,7 +18,7 @@
 * 🛡️ **Design Goal:** Industrial-grade mains isolation and surge protection in a single self-contained board—zero external relay modules or floating power supplies.
 * ⚙️ **Motors:** up to `2×` single-phase `230V AC` motors (open/close), one per leaf.
 * 📥 **Inputs:** opto-isolated `24V` (photocells, limit switches, push-buttons) plus a `433.92 MHz` rolling-code RF receiver (`4` channels).
-* 📤 **Outputs:** motor relays (power + direction, with a dedicated neutral relay per leaf), `230V AC` flashing beacon and auxiliary output.
+* 📤 **Outputs:** motor phase + direction relays, a neutral relay per leaf, `230V AC` flashing beacon (SSR) and a free-contact auxiliary relay (`AUX`).
 
 ---
 
@@ -52,10 +54,10 @@
 ### Unreleased (since v1.0)
 
 * ➕ **Double-leaf gate support:**
-  * The `triac` output was replaced with a `relay`, and an extra `relay` + `optocoupler` were added to drive a second leaf.
+  * The `AUX` `triac` output was replaced with a `relay`, and an extra `relay` + `optocoupler` were added to drive a second leaf.
   * Both leaves share the same `MOTOR DIR` relay, so they always move in the direction set by how the phase is wired: leaf 1 clockwise / leaf 2 counter-clockwise (standard), or leaf 1 clockwise / leaf 2 clockwise.
   * The delay between the two leaves is **programmable**.
-  * The direction wires of the two motors are wired **in parallel** (phase), while each leaf has its **own neutral relay**.
+  * The direction wires of the two motors are wired **in parallel** (phase), while each leaf has its **own neutral relay**: leaf 1 uses the dedicated neutral relay (`GPIO15`), leaf 2 uses the `AUX` relay (`GPIO5`) with `AUX COM` wired to `N`.
 * 📡 **RF remote receiver:**
   * Added a [`433.92 MHz` 4-channel rolling-code receiver module](https://rf-modules.com/433-92-Receiver-Module-with-on-board-decoding-RC-RHCS-4CH-p244180431) with on-board decoding.
   * `SMA` connector on the PCB for an external antenna.
@@ -80,9 +82,10 @@
   * Hardware-interlocked `AgSnO2` power relays (`MOTOR PWR` + `MOTOR DIR`) for Open/Close control (`AP` / `CH` / `COM`).
   * RC snubber networks across relay contacts to suppress inductive motor arcing.
 * 🚨 **230V AC Auxiliary Outputs (`LAMP` / `AUX`):**
-  * Opto-isolated Solid-State Relays (`BC2223A` SSRs) for flashing beacon (`LAMPEGGIANTE`) and auxiliary load (`AUX` / courtesy light / electric lock).
+  * Opto-isolated Solid-State Relay (`BC2223A` SSR) for the flashing beacon (`LAMPEGGIANTE`).
+  * `AUX` relay output for an auxiliary load (courtesy light / electric lock) or, with `AUX COM` wired to `N`, as the neutral relay of leaf 2.
 * 🛡️ **Protection & Creepage:**
-  * Dedicated `5×20 mm` replaceable fuses (`FH1`–`FH4`) on mains, motor, and auxiliary rails.
+  * Dedicated `5×20 mm` replaceable fuses: `FH1` on the power supplies input, `FH3` on the motors, `FH4` on the `+24V` supply of photocells and inputs.
   * `14D471K` Metal Oxide Varistors (`MOV`) on AC mains input and output stages.
   * Physical PCB milling slots (`Edge.Cuts`) between `230V AC` and low-voltage sections.
 * 🔌 **6× Opto-Isolated 24V Field Inputs (`LTV-847S`):**
@@ -97,9 +100,9 @@
 
 ## 🔩 Terminal Block Overview
 
-* 🔌 **J1 (`AC IN`):** `230V AC 50Hz` mains input (`L`, `N`, `PE`) protected by `FH1` + `MOV`.
+* 🔌 **J1 (`AC IN`):** `230V AC 50Hz` mains input (`L`, `N`, `PE`) protected by `FH1` (power supplies input) + `MOV`.
 * ⚙️ **J2 (`MOTOR`):** `230V AC` single-phase motor output (`COM`, `OPEN`, `CLOSE`, `PE`) with hardware interlock and snubbers.
-* 🚨 **J3 (`LAMP / AUX`):** `230V AC` Solid-State Relay outputs for flashing beacon (`LAMP`) and auxiliary load (`AUX`).
+* 🚨 **J3 (`LAMP / AUX`):** `230V AC` SSR output for the flashing beacon (`LAMP`) and `AUX` relay output (leaf 2 neutral when `AUX COM` is wired to `N`).
 * 🔋 **J4 (`+24V INPUTS`):** Isolated `24V DC` sensor supply (`-`, `-`, `+24`, `+24`).
 * 👁️ **J5 (`PHOTOC`):** Opto-isolated photocell inputs (`C`, `1`, `2` → `P1`, `P2`).
 * 🛑 **J6 (`LIMIT SW`):** Opto-isolated open/close limit switch inputs (`C`, `1`, `2` → `L1`, `L2`).
@@ -109,11 +112,11 @@
 ## 📍 ESP32-S3 Pinout Map
 
 * 📤 **Outputs:**
-  * `GPIO16` (`ESP_REL_MOT_PWR`, Active `HIGH`): Main motor power relay (`MOTOR PWR`).
+  * `GPIO16` (`ESP_REL_MOT_PWR`, Active `HIGH`): Motor phase activation relay (`MOTOR PWR`).
   * `GPIO7` (`ESP_REL_DIR`, Active `HIGH`): Direction relay (`MOTOR DIR`), shared by both leaves.
-  * `GPIO15` (`ESP_N_MOT1`, Active `HIGH`): Neutral relay of leaf 1.
-  * `GPIO6` (`ESP_LAMP`, Active `HIGH`): Flashing beacon output (`LAMP`).
-  * `GPIO5` (`ESP_AUX`, Active `HIGH`): Auxiliary output (`AUX`).
+  * `GPIO15` (`ESP_N_MOT1`, Active `HIGH`): Neutral relay of motor 1 / leaf 1.
+  * `GPIO6` (`ESP_LAMP`, Active `HIGH`): Flashing beacon SSR (`LAMP`).
+  * `GPIO5` (`ESP_AUX`, Active `HIGH`): `AUX` relay, used as the neutral relay of leaf 2 when `AUX COM` is wired to `N`.
   * `GPIO4` (`ESP_LED_GR`, Active `HIGH`): Onboard green status LED (`STATUS`).
 * 📥 **Inputs:**
   * `GPIO9` (`ESP_IN_FOTOC_1`, Active `LOW`): Photocell 1 (`P1`).

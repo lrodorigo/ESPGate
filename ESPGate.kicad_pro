@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,20 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|90725003|53395012|50e53dd5-f0ab-40e3-a80a-6273cc996dbc|915fc476-f872-4149-9a34-b18157ae841f",
-          ""
-        ],
-        [
-          "clearance|92974999|88275000|3bdead2b-b198-47eb-b48f-698da7a19b63|4974b831-9e74-4d3f-92dc-2cab0f774767",
-          ""
-        ],
-        [
-          "clearance|94725001|88275000|23811383-61db-45ac-bcf5-f494fe55ede4|c22c8baa-d250-4899-91fc-bbd05242498c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -641,7 +628,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -776,7 +763,7 @@
         "uuid": "b60c7d88-73fa-438e-b89a-43cf7c5e23dc"
       }
     ],
-    "used_designators": "#PWR1-80,ANT1,C1-31,D1-28,F1-3,FH1-5,H1-4,H6,J1-15,K1-2,LA1,LED1-14,M1-2,MOV1-7,NTC2,Q1,R1-93,RF1,RL1-6,RN1,RV1-5,SW1-4,SW_RESET2,TH1,U1-13",
+    "used_designators": "#PWR1-80,ANT1,C1-31,D1-28,F1-3,FH1-5,H1-4,H6,J1-15,K1-4,LA1,LED1-15,M1-2,MOV1-7,NTC2,Q1,R1-99,RF1,RL1-6,RN1,RV1-5,SW1-4,SW_RESET2,TH1,TP1-3,U1-13",
     "variants": []
   },
   "sheets": [

@@ -1006,7 +1006,7 @@
 	)
 	(text "PHOTOC COM"
 		(exclude_from_sim no)
-		(at 239.268 129.794 0)
+		(at 237.744 129.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,7 +1056,7 @@
 	)
 	(text "LIMIT SW OPEN"
 		(exclude_from_sim no)
-		(at 238.76 144.018 0)
+		(at 237.236 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 	)
 	(text "LIMIT SW COM"
 		(exclude_from_sim no)
-		(at 239.014 141.478 0)
+		(at 237.49 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1096,7 +1096,7 @@
 	)
 	(text "PHOTOC 2"
 		(exclude_from_sim no)
-		(at 240.792 135.128 0)
+		(at 239.268 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 	)
 	(text "PHOTOC 1"
 		(exclude_from_sim no)
-		(at 240.792 132.334 0)
+		(at 239.268 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1166,7 +1166,7 @@
 	)
 	(text "LIMIT SW CLOSE"
 		(exclude_from_sim no)
-		(at 238.252 146.558 0)
+		(at 236.728 146.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3460,7 +3460,7 @@
 				(justify right)
 			)
 		)
-		(pin "5V_ESP32" output
+		(pin "5V_ESP32" input
 			(at 35.56 78.74 180)
 			(uuid "50e722ca-cd89-47a4-90d8-00b9d767fc1b")
 			(effects
